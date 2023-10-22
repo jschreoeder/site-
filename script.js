@@ -26,13 +26,13 @@ function processUserInput(input) {
     answer.placeholder = 'Type "biblical", "tutor", or "advice"';
   } else if (input.includes('tutor')) {
     // Redirect to tutor URL.
-    loadWebsite('https://chat.openai.com/');
+    window.open('https://app.writesonic.com/');
   } else if (input.includes('advice')) {
     // Redirect to advice URL.
-    loadWebsite('https://www.therebelution.com/');
+    window.open('https://www.therebelution.com/');
   } else if (input.includes('teen')) {
     // Redirect to teen URL.
-    loadWebsite('https://www.therebelution.com/');
+    window.open('https://www.therebelution.com/');
   } else if (input.includes('adult')) {
     // Redirect to adult URL.
     loadWebsite('https://www.davidjeremiah.org/');
